@@ -1,0 +1,173 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-container {
+    max-width: 42em;
+}
+
+.nav-bar .nav-link {
+    color: rgba(255, 255, 255, .5);
+    border-bottom: .25rem solid transparent;
+  }
+  
+.nav-bar .nav-link:hover,
+.nav-bar .nav-link:focus,
+.nav-bar .active {
+    color: #BBDEFB;
+    border-bottom-color: #90CAF9;
+}
+  
+.nav-bar .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.profile-picture {
+    width: 80%;
+}
+
+.col1-text {
+    padding-left: 15%;
+}
+
+.row {
+    margin: auto;
+    
+}
+
+#hero {
+    position: relative; 
+    width: 65%;   
+}
+
+#hero h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: #BBDEFB;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.list-identity {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+.list-identity .list-item:hover,
+.list-identity .list-item:focus {
+    color: #BBDEFB;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#about {
+    width: 85%;
+}
+
+#about h1 {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.3em;
+}
+
+#skills {
+    left: 0%;
+    background-color: #343a409b;
+}
+
+#skills h1 {
+    font-weight: bold;
+    padding-bottom: 3vh;
+}
+
+#skills h2 {
+    font-weight: bold;
+    padding-bottom: 1.5vh;
+}
+
+#skills img {
+    width: 5vh;
+    padding-bottom: 2vh;
+}
+
+#projects h1 {
+    font-weight: bold;
+    padding-bottom: 5vw;
+}
+
+#projects p {
+    font-size: 1.3em;
+    color: #BBDEFB;
+    font-style: italic;
+}
+
+#contact h1 {
+    font-weight: bold;
+    padding-bottom: 3vw;
+}
+
+#contact h2 {
+    font-size: 1.3em;
+    color: #BBDEFB;
+    font-style: italic;
+}
+
+#contact p {
+    font-size: 1.2em;
+}
+
+#contact i {
+    font-size: 1.5em;
+}
+
+.footer-page {
+    height:10%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-socials i{
+	border: none;
+    text-align: center;
+	background-color: transparent;
+	font-size: 4vh;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+
+.footer-socials i:hover {
+    color: #90CAF9;
+}
+
+.bottom-border {
+    height: 5px;
+    background-color: #90CAF9;
+}
+
+@media only screen and (max-width: 650px) {
+    #projects p {
+        font-size: 0.9em;
+    }
+}
