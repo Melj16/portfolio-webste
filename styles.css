@@ -170,4 +170,12 @@ section {
     #projects p {
         font-size: 0.9em;
     }
+
+    #about h1 {
+        font-size: 1.7em;
+    }
+
+    #about p {
+        font-size: 1.1em;
+    }
 }
